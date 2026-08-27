@@ -1,0 +1,32 @@
+title: "[General] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for broad TIR-CMM discussion. Actionable model changes belong in Issues; security findings belong in the private reporting path in SECURITY.md.
+  - type: textarea
+    id: topic
+    attributes:
+      label: What would you like to discuss?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Preparation and Readiness
+        - Authority and Decision Rights
+        - Response Engineering
+        - Containment / Eradication / Recovery
+        - Automation and Orchestration
+        - Forensics and Investigation
+        - Validation and Exercising
+        - Governance and Improvement
+        - Containment Lattice
+        - Response Tempo / MTTDecide
+        - Scoring / Constraints
+        - UTIOM / TID-CMM relationship
+        - Other
+    validations:
+      required: true
