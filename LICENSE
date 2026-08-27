@@ -1,0 +1,33 @@
+TIR-CMM — Licensing Boundary
+
+Copyright (c) 2026 Reza Adineh
+
+The canonical licensing terms are published at https://tir-cmm.com.
+
+1. CONCEPTUAL TIR-CMM MODEL AND MODEL DOCUMENTATION
+
+The conceptual TIR-CMM model is licensed under Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0), unless a file explicitly states otherwise.
+
+You may share and use the model, including commercially, with appropriate attribution. If you remix, transform, or build upon the model, you may not distribute the modified material under the CC BY-ND 4.0 licence.
+
+Canonical licence text:
+https://creativecommons.org/licenses/by-nd/4.0/legalcode
+
+2. MACHINE-READABLE MODEL, SCHEMAS AND INTEGRATION CONTRACTS
+
+Machine-readable model files and schemas explicitly published by TIR-CMM for integration are licensed CC BY 4.0 unless the file states otherwise.
+
+Canonical licence text:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+3. TOOLING, WEBSITE AND REFERENCE IMPLEMENTATION
+
+The TIR-CMM assessment tooling, website implementation and reference implementation are source-available / all rights reserved unless an explicit licence states otherwise. The canonical site describes them as free to run, self-host and audit, but not licensed for redistribution, rebranding or resale as another product.
+
+The presence of public framework documentation in this repository does not change that tooling licence.
+
+4. THIRD-PARTY MATERIAL
+
+Third-party standards, trademarks, mappings and referenced material remain subject to their respective owners' terms. TIR-CMM is an independent project and does not imply endorsement by referenced standards bodies or framework maintainers.
+
+For the authoritative current licensing statement, use https://tir-cmm.com.
