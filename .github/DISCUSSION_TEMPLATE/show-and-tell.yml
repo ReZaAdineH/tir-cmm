@@ -1,0 +1,31 @@
+title: "[Implementation] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share an anonymised TIR-CMM implementation or exercise story. The most useful stories show what was claimed, what was proven, where time or authority failed, and what changed afterwards.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and starting problem
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Assessment depth and how TIR-CMM was applied
+    validations:
+      required: true
+  - type: textarea
+    id: findings
+    attributes:
+      label: Findings, timing, authority or lattice lessons
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Publication check
+      options:
+        - label: I have removed confidential, incident-sensitive, customer and production-sensitive information.
+          required: true
