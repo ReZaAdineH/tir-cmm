@@ -1,0 +1,17 @@
+title: "[Q&A] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask how to interpret or apply TIR-CMM. Use Issues for concrete defects or change proposals.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Share enough environment/assessment context to make the question useful, without sensitive incident data.
