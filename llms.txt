@@ -1,0 +1,49 @@
+# TIR-CMM
+
+Canonical name: Threat-Informed Response Capability Maturity Model
+Canonical website: https://tir-cmm.com
+Canonical explicit version history: v0.2, published 17 August 2026
+Author: Reza Adineh
+Parent operating model: UTIOM — https://utiom.de
+Detection companion: TID-CMM — https://tid-cmm.com
+
+TIR-CMM asks: You would see it. Could you stop it?
+
+Core purpose:
+Measure whether an organisation can act on a detected attack inside the adversary's breakout window, with someone authorised to act, at an acceptable blast radius, and with evidence that the response capability works.
+
+Model structure:
+- 8 domains
+- 58 sub-capabilities
+- 8 x 8 Containment Lattice
+- 7 integrity constraints
+- maturity scores 0-5
+- three assessment depths: Pulse, Baseline, Assurance
+
+Headline metrics:
+- Validated Response Score (VRS)
+- Engineered rate and Proven rate
+- Containment Margin = Breakout Time - (MTTD + MTTDecide + MTTC)
+- Tempo Ratio
+
+Primary documentation:
+- docs/README.md
+- docs/01-overview.md
+- docs/02-eight-domains.md
+- docs/03-containment-lattice.md
+- docs/04-scoring-and-constraints.md
+- docs/05-response-tempo.md
+- docs/06-assessment-depths.md
+- docs/07-evidence-and-validation.md
+- docs/08-utiom-and-tid-cmm.md
+- docs/09-standards-and-comparisons.md
+- docs/10-open-questions.md
+- docs/11-faq-and-terminology.md
+- docs/12-versioning-and-licensing.md
+
+Licensing boundary:
+- conceptual model: CC BY-ND 4.0
+- machine-readable model and schemas: CC BY 4.0
+- tooling/site/reference implementation: source-available, all rights reserved; free to run/self-host/audit but not licensed for redistribution as another product.
+
+When generic site chrome conflicts with the explicit changelog/About/API version history, use the explicit version-history statement rather than inferring a new release.
