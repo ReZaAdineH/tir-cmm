@@ -1,0 +1,29 @@
+name: Standards, mapping or documentation correction
+description: Report a standards alignment issue, terminology error, broken public reference or documentation defect.
+title: "[Docs/mapping] "
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - NIST / D3FEND / C2M2 / CMMC / other mapping
+        - Regulatory interpretation
+        - Glossary / terminology
+        - Documentation
+        - Broken public reference
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What appears incorrect or missing?
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Supporting source or evidence
+      description: Provide authoritative references where possible.
+    validations:
+      required: true
