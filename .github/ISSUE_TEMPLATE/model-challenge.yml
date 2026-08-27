@@ -1,0 +1,49 @@
+name: Model, constraint or lattice challenge
+description: Challenge TIR-CMM with a concrete counter-example, timing observation or scoring problem.
+title: "[Model challenge] "
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: What are you challenging?
+      options:
+        - Domain or sub-capability descriptor
+        - Integrity constraint R1-R7
+        - Containment Lattice cell/status
+        - Asset class or attack-path stage
+        - Response tempo / breakout assumption
+        - Assessment depth / governance ceiling
+        - Other model logic
+    validations:
+      required: true
+  - type: input
+    id: reference
+    attributes:
+      label: Model reference
+      description: For example RA-2, R5, A8/S3, Pulse ceiling.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Counter-example or observed problem
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence, measurements or reasoning
+      description: Anonymise incident, customer and organisation-sensitive information.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Suggested correction or experiment
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Publication check
+      options:
+        - label: I have removed confidential, credential, incident-sensitive and production-sensitive information.
+          required: true
