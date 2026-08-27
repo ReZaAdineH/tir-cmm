@@ -2,7 +2,7 @@
 
 **You would see it. Could you stop it?**
 
-**Canonical model version: v0.2 · published 17 August 2026**  
+**Canonical model version: v1.0 · published 17 August 2026**  
 **8 domains · 58 sub-capabilities · 8×8 Containment Lattice · 7 integrity constraints**  
 **Canonical website: https://tir-cmm.com**
 
