@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability report
+    url: https://github.com/ReZaAdineH/tir-cmm/blob/main/SECURITY.md
+    about: Do not disclose vulnerabilities, incident-sensitive material or private findings in a public issue. Follow SECURITY.md.
+  - name: TIR-CMM canonical website
+    url: https://tir-cmm.com
+    about: Current model, assessment, version history and canonical public guidance.
