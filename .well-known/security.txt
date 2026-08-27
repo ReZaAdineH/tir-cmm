@@ -1,0 +1,4 @@
+Policy: https://github.com/ReZaAdineH/tir-cmm/blob/main/SECURITY.md
+Canonical: https://tir-cmm.com
+Preferred-Languages: en
+Expires: 2027-08-31T23:59:59Z
