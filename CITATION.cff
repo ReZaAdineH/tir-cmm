@@ -1,0 +1,30 @@
+cff-version: "1.2.0"
+title: "TIR-CMM — Threat-Informed Response Capability Maturity Model"
+message: "If you use TIR-CMM in research, assessment, assurance or professional work, please cite the canonical model."
+type: software
+authors:
+  - family-names: Adineh
+    given-names: Reza
+    website: "https://rezaadineh.com"
+repository-code: "https://github.com/ReZaAdineH/tir-cmm"
+url: "https://tir-cmm.com"
+abstract: >-
+  A threat-informed response capability maturity model that measures whether an
+  organisation can act on a detected attack inside adversary breakout time, with
+  sufficient authority and evidence that the response capability works. TIR-CMM
+  contains eight domains, 58 sub-capabilities, an 8x8 Containment Lattice and
+  seven integrity constraints, and is the response measurement companion to
+  TID-CMM within the UTIOM ecosystem.
+keywords:
+  - incident response
+  - response engineering
+  - containment
+  - cyber incident response
+  - response maturity
+  - threat-informed response
+  - containment margin
+  - MTTDecide
+  - security operations
+  - UTIOM
+version: "0.2"
+date-released: "2026-08-17"
