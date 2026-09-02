@@ -13,7 +13,8 @@ abstract: >-
   organisation can act on a detected attack inside adversary breakout time, with
   sufficient authority and evidence that the response capability works. TIR-CMM
   contains eight domains, 58 sub-capabilities, an 8x8 Containment Lattice and
-  seven integrity constraints, and is the response measurement companion to
+  seven numbered constraint families implemented as eight checks in v1.0, and
+  is the response measurement companion to
   TID-CMM within the UTIOM ecosystem.
 keywords:
   - incident response
@@ -26,5 +27,5 @@ keywords:
   - MTTDecide
   - security operations
   - UTIOM
-version: "0.2"
-date-released: "2026-08-17"
+version: "1.0"
+date-released: "2026-08-24"

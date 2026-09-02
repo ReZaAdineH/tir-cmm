@@ -11,9 +11,9 @@ For each priority actor:
 Where:
 
 - **Breakout Time** is the time from initial foothold to first lateral movement;
-- **MTTD** is mean time to detect;
+- **MTTD** is mean time from initial foothold to validation as a real incident;
 - **MTTDecide** is mean time from validated alert to authorised containment decision;
-- **MTTC** is mean time to execute containment once authorised.
+- **MTTC** is mean time from authorisation until containment has taken effect.
 
 A positive margin means containment lands before breakout. A negative margin means the organisation is structurally behind the adversary even if its playbooks and tooling look mature.
 
@@ -37,5 +37,17 @@ Interpretation published by the model:
 - **TR ≥ 2.0** — response is effectively post-incident recovery.
 
 Tempo Ratio drives constraint R5.
+
+## Evidence quality in v1.0
+
+Breakout time records a source, reference and date. The source hierarchy is:
+
+1. observed in the organisation's own incidents or exercises;
+2. actor-specific threat intelligence;
+3. sector-specific evidence;
+4. a published industry benchmark;
+5. an assessor estimate.
+
+The first two qualify as measured for the tempo constraint. The remaining sources are estimates for the assessed environment and cap the reported band at L3 under R5b. Where available, each interval should also record P50, P90, sample size, measurement window and data source; a mean based on fewer than ten timed incidents is flagged as underpowered.
 
 Canonical site: https://tir-cmm.com

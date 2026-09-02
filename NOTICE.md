@@ -6,7 +6,7 @@ This repository is the public framework, documentation and community surface for
 
 Canonical website: https://tir-cmm.com
 
-Explicit published version history identifies the current model as **v0.2, published 17 August 2026**.
+The current canonical model is **v1.0, published 24 August 2026**. Artifact versions are tracked independently; see https://tir-cmm.com/changelog.
 
 ## Relationship to UTIOM
 

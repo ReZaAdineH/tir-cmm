@@ -2,8 +2,8 @@
 
 **You would see it. Could you stop it?**
 
-**Canonical model version: v1.0 · published 17 August 2026**  
-**8 domains · 58 sub-capabilities · 8×8 Containment Lattice · 7 integrity constraints**  
+**Canonical model version: v1.0 · published 24 August 2026**
+**8 domains · 58 sub-capabilities · 8×8 Containment Lattice · 7 constraint families / 8 enforced checks**
 **Canonical website: https://tir-cmm.com**
 
 TIR-CMM is a threat-informed response capability maturity model that measures whether an organisation can act on what it detects **inside the adversary's breakout window, with someone authorised to act, at the intended blast radius — and whether it can prove that capability**.
@@ -13,6 +13,16 @@ TIR-CMM is the **response measurement module of UTIOM**, the Unified Threat-Info
 > **TID-CMM asks: would we see it? TIR-CMM asks: could we stop it?**
 
 TIR-CMM does not replace UTIOM and does not add a new UTIOM lifecycle phase. UTIOM remains the overarching operating model. TIR-CMM adds measurement depth to the response and continuous-improvement capabilities already defined within UTIOM's Operations & Analysis pillar.
+
+## Use the canonical release
+
+- **Learn about the model:** https://tir-cmm.com/what-is-tir-cmm
+- **Run an assessment:** https://tir-cmm.com/assessment
+- **Download the specification, workbook and integration artifacts:** https://tir-cmm.com/downloads
+- **Check versions and compatibility:** https://tir-cmm.com/changelog
+- **Read the licence:** https://tir-cmm.com/licence.html
+
+This repository is the public information, documentation and community surface for TIR-CMM. The canonical website remains authoritative for the released model, assessment tool, downloads, schemas and machine-readable artifacts. Production website and assessment-tool source are intentionally outside this repository.
 
 ---
 
@@ -37,7 +47,7 @@ TIR-CMM deliberately contains **no detection domain**. It consumes detection mat
 
 ## One model, three assessment depths
 
-TIR-CMM v0.2 supports three strict-superset depths:
+TIR-CMM v1.0 supports three strict-superset depths:
 
 - **Pulse** — about 20 minutes, 20 questions, indicative, band capped at L3.
 - **Baseline** — about 1–2 hours, all 58 sub-capabilities plus evidence levels, Containment Lattice, authority map and response tempo, band capped at L4.
@@ -82,11 +92,13 @@ Where:
 
 TIR-CMM treats **MTTDecide** as a first-class metric because decision latency is often the most fixable but least visible response bottleneck.
 
+In v1.0, tempo inputs carry a source and date. Estimated breakout or interval timings may support planning, but they cannot evidence a validated capability and therefore cap the reported band at L3.
+
 ---
 
-## Seven integrity constraints
+## Seven constraint families, eight enforced checks
 
-Constraints are applied mechanically and can only lower a claim.
+TIR-CMM retains the seven numbered families R1–R7. Version 1.0 enforces R5b separately in the machine-readable model, so implementations expose eight checks. Every check can only lower a claim.
 
 | ID | Constraint | Core rule |
 | --- | --- | --- |
@@ -95,6 +107,7 @@ Constraints are applied mechanically and can only lower a claim.
 | **R3** | Evidence Cap | Evidence level VC0–VC3 caps the score a claim can support. |
 | **R4** | Detection Dependency | Response Engineering, Containment and Forensics cannot outrun detection maturity. |
 | **R5** | Tempo Ceiling | A capability slower than adversary breakout time cannot claim high maturity. |
+| **R5b** | Tempo Evidence Ceiling | Estimated breakout or interval timings cap the reported band at L3. |
 | **R6** | Blind-Cell Gate | A critical crown-jewel path with no response option caps the reported band. |
 | **R7** | Assessment Depth & Governance | Pulse/Baseline depth and insufficient independent challenge cap the reported band. |
 
@@ -113,6 +126,8 @@ UTIOM remains the foundation:
 
 The modules do not fill gaps in UTIOM. They deepen measurement of capabilities UTIOM already defines.
 
+RSMM supports the same Engineering & Enablement pillar by measuring the SIEM and monitoring platform underneath detection operations. It does not change TIR-CMM's scope.
+
 ---
 
 ## Public knowledge base
@@ -125,7 +140,7 @@ For AI/search discovery, see [`llms.txt`](llms.txt).
 
 ## Community and challenge
 
-TIR-CMM v0.2 is explicitly published for practitioner challenge. The most valuable contribution is a counter-example:
+TIR-CMM v1.0 is published for practitioner validation. The most valuable contribution is a counter-example:
 
 - a constraint that fired incorrectly;
 - a lattice cell that cannot be scored honestly;
@@ -150,7 +165,7 @@ The repository follows the canonical site's published licensing split:
 
 This repository is the public framework/community surface. It does not automatically publish the assessment-tool source or private implementation material.
 
-Canonical licence terms: https://tir-cmm.com
+Canonical licence terms: https://tir-cmm.com/licence.html
 
 ---
 
