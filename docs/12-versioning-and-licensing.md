@@ -6,8 +6,11 @@ The TIR-CMM changelog explicitly states:
 
 - **v0.1 — 16 August 2026**: first complete model; 8 domains, 58 sub-capabilities, a 7-stage × 8-asset lattice and five integrity constraints.
 - **v0.2 — 17 August 2026**: three assessment depths, graduated evidence ceilings, S0 Prevent & Harden, standalone prerequisite route, R7, exclusion of unscored domains, timing validation and other scoring corrections.
+- **v1.0 — 24 August 2026**: first stable release; enforced proof recency, sourced tempo evidence and R5b, normative interval definitions, complete export metadata, advisory consistency checks, resolved R4 basis and corrected standards crosswalks.
 
-The changelog and About page identify **v0.2** as the published model version. Some site chrome/footer text currently says “v1.0”; this repository does not invent a reconciliation and follows the explicit version-history pages.
+The current canonical model is **v1.0**. The browser tool/library is **v1.0.0**, the export schema is **v1.0**, and the workbook is **v1.0**. These versions are independent by design and must be recorded separately in exported assessment results.
+
+Version authority and compatibility rules: https://tir-cmm.com/changelog
 
 ## Licensing boundary
 

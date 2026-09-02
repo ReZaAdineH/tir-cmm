@@ -1,19 +1,19 @@
-# TIR-CMM Open Questions and Contribution Priorities
+# TIR-CMM Validation Questions and Contribution Priorities
 
-TIR-CMM v0.2 is deliberately published for challenge. The canonical About/changelog material keeps unresolved design questions visible rather than presenting the model as empirically settled.
+TIR-CMM v1.0 closes the methodological questions required for a stable release, but publication does not make the instrument empirically settled. Practitioner evidence and counter-examples remain essential.
 
 High-value questions include:
 
-1. **R4 basis** — should detection dependency use TID-CMM overall maturity or a harsher visibility-related basis?
-2. **Lattice/domain coupling** — should the Containment Lattice remain reported alongside maturity or become a pseudo-domain?
-3. **Standalone calibration** — is the prerequisite-check threshold and L4 ceiling calibrated correctly for organisations without TID-CMM?
-4. **OT/ICS depth** — does the OT asset class need dedicated response sub-capabilities because safe-state, manual fallback and reimaging assumptions differ materially from IT?
-5. **Breakout-time fallback** — what default is defensible when actor-specific breakout intelligence is unavailable?
-6. **MTTDecide instrumentation** — what practical method produces reliable decision-latency timestamps where case tooling does not natively separate validation from authorisation?
-7. **R1 dominance** — is the rehearsal ceiling too dominant, and would an alternative preserve honesty while improving diagnostic spread?
-8. **Worked-example publication** — publish and maintain practitioner-facing score sheets and lattice evidence so future model changes can be tested numerically.
+1. **Constraint calibration** — do the R1–R7 families fire at the right point in real environments, including the separately enforced R5b tempo-evidence check?
+2. **Lattice structure** — can the 8×8 lattice and 0–3 status scale express cloud, SaaS, identity, hybrid and outsourced response honestly?
+3. **Standalone calibration** — does the prerequisite check produce a credible detection proxy when compared with a later TID-CMM assessment?
+4. **OT/ICS profile** — does the explicitly unvalidated extension handle safe state, manual fallback, availability and reimaging constraints correctly?
+5. **Proof recency** — is the 12-month expiry period appropriate across capability types, and do the five structural-change triggers invalidate proof at the right time?
+6. **MTTDecide instrumentation** — what practical method produces reliable decision-latency timestamps where case tooling does not separate validation from authorisation?
+7. **Consistency checks** — do the 13 advisory checks identify genuine scoring mistakes without becoming hidden scoring constraints?
+8. **Worked examples** — do real assessment traces reproduce the model's arithmetic and reveal useful, correctly ranked improvement actions?
 
-One earlier v0.2 question — how to support threat modelling and detection maturity when TIR-CMM is run standalone — is documented by the site as resolved through the eight-question prerequisite check.
+Version 1.0 resolves the R4 basis: it uses TID-CMM's constraint-adjusted, pre-substitution overall detection score. Telemetry weakness is raised as context rather than applied as a second cap.
 
 ## What makes useful feedback
 

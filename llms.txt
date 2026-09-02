@@ -2,7 +2,10 @@
 
 Canonical name: Threat-Informed Response Capability Maturity Model
 Canonical website: https://tir-cmm.com
-Canonical explicit version history: v0.2, published 17 August 2026
+Canonical model version: v1.0, published 24 August 2026
+Browser tool and library version: v1.0.0
+Export schema version: v1.0
+Workbook version: v1.0
 Author: Reza Adineh
 Parent operating model: UTIOM — https://utiom.de
 Detection companion: TID-CMM — https://tid-cmm.com
@@ -16,7 +19,8 @@ Model structure:
 - 8 domains
 - 58 sub-capabilities
 - 8 x 8 Containment Lattice
-- 7 integrity constraints
+- 7 numbered constraint families (R1-R7)
+- 8 enforced checks in v1.0, with R5b represented separately
 - maturity scores 0-5
 - three assessment depths: Pulse, Baseline, Assurance
 
@@ -46,4 +50,4 @@ Licensing boundary:
 - machine-readable model and schemas: CC BY 4.0
 - tooling/site/reference implementation: source-available, all rights reserved; free to run/self-host/audit but not licensed for redistribution as another product.
 
-When generic site chrome conflicts with the explicit changelog/About/API version history, use the explicit version-history statement rather than inferring a new release.
+Version authority: https://tir-cmm.com/changelog

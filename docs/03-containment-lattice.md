@@ -13,9 +13,11 @@ Each in-scope cell is scored from **0 to 3**:
 
 Status 3 is not permanent. Proven capability can expire when evidence becomes stale.
 
+In v1.0, a Proven cell reverts to Engineered when its proof is undated, older than 12 months, or invalidated by a material change to tooling, the on-call model, ownership, architecture or provider.
+
 ## S0 Prevent & Harden
 
-Version 0.2 adds **S0 Prevent & Harden** ahead of the response stages, with the highest stage leverage in the model. The principle is simple: an attack path that architecture prevents never needs a response, and prevention creates the one resource incident response cannot manufacture after compromise — time.
+Version 0.2 added **S0 Prevent & Harden** ahead of the response stages, with the highest stage leverage in the model. The principle is simple: an attack path that architecture prevents never needs a response, and prevention creates the one resource incident response cannot manufacture after compromise — time.
 
 ## Why the lattice is separate from domain maturity
 

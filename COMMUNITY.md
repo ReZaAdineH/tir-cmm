@@ -1,6 +1,6 @@
 # TIR-CMM Community
 
-TIR-CMM v0.2 is explicitly published for practitioner challenge. The community exists to improve the response maturity instrument through real evidence, measured response data, counter-examples and transparent discussion.
+TIR-CMM v1.0 is published for practitioner validation. The community exists to improve the response maturity instrument through real evidence, measured response data, counter-examples and transparent discussion.
 
 ## High-value contributions
 

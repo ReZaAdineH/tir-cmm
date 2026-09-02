@@ -2,7 +2,7 @@
 
 TIR-CMM separates claimed capability from demonstrated capability.
 
-Version 0.2 replaces a yes/no evidence flag with four evidence classes:
+Version 0.2 replaced a yes/no evidence flag with four evidence classes, retained by v1.0:
 
 - **VC0 — Assertion only**: verbal claim or no evidence; caps at 1.
 - **VC1 — Design or policy**: document, policy, screenshot or partial implementation; caps at 2.
@@ -10,6 +10,8 @@ Version 0.2 replaces a yes/no evidence flag with four evidence classes:
 - **VC3 — Repeatably validated**: recent, repeatable and independently reviewable proof from the live environment; caps at 5.
 
 Evidence permits a score; it does not create one.
+
+In v1.0, evidence records carry an artifact reference and date. VC3 grades to VC2 when it is undated or older than 12 months. Proven lattice evidence expires on the same schedule, or sooner after a material tooling, on-call, ownership, architecture or provider change.
 
 ## Response Validation & Exercising
 

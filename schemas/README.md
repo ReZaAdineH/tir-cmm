@@ -2,6 +2,8 @@
 
 The canonical TIR-CMM site publishes integration schemas under **CC BY 4.0**.
 
+Current export schema version: **1.0**.
+
 ## Canonical schemas
 
 - TIR-CMM assessment export schema: https://tir-cmm.com/schemas/tir-cmm-export.schema.json

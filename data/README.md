@@ -2,7 +2,7 @@
 
 The canonical TIR-CMM website publishes machine-readable integration artifacts under **CC BY 4.0**.
 
-Current canonical model version: **0.2**.
+Current canonical model version: **1.0**.
 
 ## Canonical artifacts
 

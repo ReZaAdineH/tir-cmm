@@ -1,4 +1,4 @@
-# TIR-CMM Scoring and Seven Integrity Constraints
+# TIR-CMM Scoring and Integrity Constraints
 
 Every sub-capability is scored from 0 to 5. Domain scores are weighted means of in-scope sub-capabilities; the overall score is the weighted mean of the eight domain scores.
 
@@ -14,9 +14,11 @@ The published scoring order is:
 4. R2 — Authority Ceiling
 5. R1 — Rehearsal Ceiling
 6. Compute overall score
-7. Apply R5, R6 and R7 to the reported band; the lowest cap wins
+7. Apply R5, R6 and R7 to the reported band; the lowest cap wins, while every applicable ceiling remains visible in the report
 
 Constraints can only lower a claim.
+
+The model retains seven numbered constraint families, R1–R7. Version 1.0 represents the tempo-evidence rule R5b as a separate machine-readable check, so the canonical model data contains eight enforced checks.
 
 ## R1 — Rehearsal Ceiling
 
@@ -28,7 +30,7 @@ Automation & Orchestration and Containment/Eradication/Recovery are capped at **
 
 ## R3 — Evidence Cap
 
-Version 0.2 uses graduated evidence levels:
+TIR-CMM uses the graduated evidence levels introduced in v0.2:
 
 | Evidence | Name | Score ceiling |
 | --- | --- | ---: |
@@ -41,11 +43,13 @@ The evidence level is a ceiling, not a conversion; strong evidence does not incr
 
 ## R4 — Detection Dependency
 
-Response Engineering, Containment and Forensics cannot exceed detection maturity + 1. TIR-CMM uses an imported TID-CMM score where available or a clearly flagged standalone proxy.
+Response Engineering, Containment and Forensics cannot exceed detection maturity + 1. In v1.0, an import uses TID-CMM's constraint-adjusted, pre-substitution overall detection score. Without an import, TIR-CMM uses a clearly flagged standalone proxy; with neither, the absence of detection evidence is explicit.
 
 ## R5 — Tempo Ceiling
 
 The reported band is constrained by whether containment arrives before adversary breakout. A response capability structurally slower than the adversary cannot claim high maturity regardless of documentation quality.
+
+R5b caps the band at L3 when breakout evidence is neither measured in the assessed environment nor actor-specific, or when the response intervals are estimates. Estimated values remain useful for planning, but do not prove validated response capability.
 
 ## R6 — Blind-Cell Gate
 

@@ -1,6 +1,6 @@
 # TIR-CMM Assessment Depths
 
-Version 0.2 introduced three assessment depths. Each is a strict superset of the one below, so organisations can deepen an assessment without changing the underlying model.
+Version 0.2 introduced the three assessment depths retained by v1.0. Each is a strict superset of the one below, so organisations can deepen an assessment without changing the underlying model.
 
 ## Pulse
 
